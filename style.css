@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background-1{
+    background-image:url("star.jpg") ;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+h1{
+    color:wheat;
+}
+.isro-logo{
+    height:60px;
+    width:60px;
+}
+.isro{
+    margin-left: 20px;
+}
+.containor{
+    display:flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.head div:hover{
+    cursor:pointer;
+    color:blueviolet;
+}
+
+.head{
+    display:flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.head div{
+    margin:20px;
+    font-size: 25px;
+}
+.data{
+    display:flex;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items:center;
+}
+.data div{
+    /* margin-top: 50px; */
+    font-size: 20px;
+}
+.animation{
+  margin-left: 550px;
+}
+.pslv{
+    display:flex;
+    margin:20px;
+    justify-content: space-between;
+    z-index:-1;
+}
+.pslv1{
+    height:400px;
+    width:400px;
+}
+.pslv3{
+    height:400px;
+    width:500px;
+}
+.pslv2{
+    height:400px;
+    width:500px;
+}
+.abt{
+   text-align: center;
+   color:black;
+}
+.img{
+    background-image: url("blur\ img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+    width:90%;
+    align-self: center;
+    margin-left: 100px;
+}
+.img{
+    font-size: 40px;
+    color:rgb(95, 50, 7);
+    text-align: center;
+    text-shadow: darkslategray;
+}
+.last-logo{
+    height: 100px;
+    width:100px;
+    margin-top: 30px;
+
+}
+.vision{
+    margin-top: 70px;
+    margin:50px 0px;
+}
